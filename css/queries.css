@@ -1,0 +1,521 @@
+@media only screen and (min-width:3401px){
+  body{font-size:40px;}
+
+.intro-box{
+  transform:translate(-98%, -50%);
+}
+
+.about-heading{
+  font-size:160%;
+}
+
+.logo{
+  height:8rem;
+}
+
+.about-section{
+    padding:4% 12% 2%;
+  }
+
+  .about-us{
+    padding:18% 5%;
+  }
+
+  .social-section{
+    padding:0 12% 2%;
+  }
+
+  .fab{
+    font-size:5rem;
+  }
+
+  .footer-logo{
+    width:24rem;
+  }
+
+  .tel{
+    font-size:130%;
+  }
+
+  .contact-section{
+      padding:4% 31% 10%;
+  }
+}
+
+@media only screen and (min-width:2701px) and (max-width:3400px) {
+  body{font-size:37px;}
+
+  .intro-box{
+    transform:translate(-97%, -50%);
+
+  }
+
+  .about-heading{
+    font-size:150%;
+  }
+
+  .logo{
+    height:7rem;
+  }
+
+  .about-section{
+      padding:4% 10% 2%;
+    }
+
+    .about-us{
+      padding:18% 5%;
+    }
+
+    .social-section{
+      padding:0 10% 2%;
+    }
+
+    .fab{
+      font-size:4rem;
+    }
+
+    .footer-logo{
+      width:22rem;
+    }
+
+    .tel{
+      font-size:125%;
+    }
+
+    .contact-section{
+        padding:4% 29% 10%;
+    }
+
+
+}
+
+@media only screen and (min-width:2100px) and (max-width:2700px){
+  body{font-size:29px}
+
+
+.intro-box{
+  transform:translate(-96%, -50%);
+
+}
+
+.logo{
+  height:6rem;
+}
+
+
+
+.about-heading{
+  font-size:150%;
+}
+
+.about-section{
+    padding:4% 8% 2%;
+  }
+
+  .about-us{
+    padding:18% 5%;
+  }
+
+  .social-section{
+    padding:0 8% 2%;
+  }
+
+.fab{
+  font-size:3.75rem;
+}
+
+.footer-logo{
+  width:20rem;
+}
+
+.tel{
+  font-size:120%;
+}
+
+.contact-section{
+    padding:4% 27% 10%;
+}
+
+}
+
+@media only screen and (min-width:1891px) and (max-width:2100px){
+
+  body{font-size:27px;}
+
+  .navbar-brand{
+    margin-left:3.25rem;
+  }
+
+  .intro-box{
+    transform:translate(-95%, -50%);
+
+  }
+
+  .about-us{
+    padding:14% 5%;
+  }
+
+  .social-section{
+    padding:0 4% 2%;
+  }
+  .fab{
+    font-size:3.5rem;
+  }
+
+  .tel{
+    font-size:110%;
+  }
+
+  .contact-section{
+      padding:4% 25% 10%;
+  }
+
+}
+@media only screen and (min-width: 1500px) and (max-width:1890px){
+  body{
+    font-size:25px;
+  }
+
+  .navbar-brand{
+    margin-left:3rem;
+  }
+
+
+  .about-section{
+    padding: 4% 4% 1%;
+  }
+
+  .about-us{
+    padding:14% 5%;
+  }
+
+  .fab{
+    font-size:3rem;
+  }
+
+  .tel{
+    font-size:100%;
+  }
+
+  .contact-section{
+      padding:4% 20% 10%;
+  }
+}
+
+@media only screen and (min-width:1086px){
+  .main-nav{
+    display:inline-block !important;
+  }
+
+}
+
+
+@media only screen and  (max-width:1085px) {
+/* nav bar */
+body{
+  font-size:18px;
+}
+.main-nav{
+  display:none;
+  float:right;
+  padding:0;
+  margin:0;
+  width:100%;
+  font-size:95%;
+}
+.logo{
+  height:70px;
+}
+.main-nav li{
+  display:block;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+border:0;
+padding:4px 0;
+}
+
+.main-nav li a::after{
+  content: '';
+display: none;
+}
+
+.mob-nav{
+  display:inline-block;
+color:#fff;
+  font-size:150%;
+  position:absolute;
+  right:4%;
+  top:2.5%;
+}
+
+.img-slide:first-child{
+  background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url('../images/homepage/header-1.jpg') no-repeat center center/cover;
+}
+
+.img-slide:nth-child(2){
+  background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url('../images/homepage/header-2.jpg')no-repeat center center/cover;
+}
+
+.big-heading{
+  font-size: 195%;
+}
+/* about section */
+
+.about-section{
+  padding:4% 8%;
+}
+
+.about-image{
+  /* box-shadow: 8px 10px 5px #ccc; */
+}
+.testimonials{background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url('../images/homepage/testimonials-back.jpg')no-repeat center center/cover}
+
+
+
+.gallery-intro{
+  background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),url('../images/gallery-page/gallery.jpg')no-repeat center center/cover;
+}
+
+.contact-landing{
+  background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../images/contact-page/contact-landing.jpg')no-repeat center center/cover;
+}
+
+}
+
+@media only screen and (max-width:991px){
+body{
+  font-size:16px;
+}
+
+.mob-nav{
+  font-size:160%;
+}
+
+/* HomePage */
+.about-section{
+  padding: 4% 5%;
+}
+.creations-img{
+  width:175px;
+  height:175px;
+}
+
+.testimonials{
+  padding:8%;
+}
+
+.social-section{
+  padding:0 4% 4%;
+}
+
+.social-media{
+  margin-top:0;
+}
+
+
+.contact-section{
+      padding:5% 5% 10%;
+}
+footer{
+  text-align: center;
+}
+.footer-titles{
+  font-size:110%
+}
+
+.footer-text{
+  font-size:85%;
+}
+
+.credits{
+  font-size: 85%;
+}
+
+}
+@media only screen and (max-width:767px){
+
+.logo{
+  height:65px;
+}
+.intro-box{
+  text-align: center;
+  transform: translate(-50%,-50%);
+  width:100%;
+}
+
+.big-heading{
+  font-size:190%;
+}
+
+.mob-nav{
+  top:3.25%;
+}
+
+.about-section{
+    padding:6% 6% 2%;
+}
+
+.about-image{
+  width:80%;
+  height:auto;
+    box-shadow: 8px 10px 5px #ccc;
+}
+
+.about-pic{
+  text-align: center;
+}
+
+.creations-section{
+    padding:4% 10% 20%;
+}
+
+.testimonials{
+  padding:10%;
+}
+
+.testimonial-text{
+  font-size:150%;
+}
+
+.social-section{
+  padding:0 10% 10%;
+}
+
+.gallery-img{
+  margin-top:4%;
+
+}
+
+.contact-title{
+  text-align: center;
+  margin-left: 0;
+
+}
+
+.contact-number i{
+  width:100%;
+  margin-left: 0;
+  text-align: center;
+    margin-bottom:2rem;
+}
+
+
+.message-title{
+  text-align:center;
+    margin-left: 0;
+    margin-top:10%;
+}
+
+
+.message-links{
+  width:75%;
+  text-align:center;
+    margin-bottom:3.25rem;
+}
+
+.hours-title{
+  text-align:center;
+  margin-left:0;
+  margin-top:10%;
+
+}
+
+.hours-text{
+  text-align: center;
+  margin-left: 0;
+    margin-bottom:3.25rem;
+}
+
+
+
+.map-finder{
+  width:100%;;
+}
+}
+
+
+@media only screen and (min-width:460px) and (max-width:575px){
+
+body{
+  font-size:14px;
+}
+
+  .gallery-section{
+    padding:4% 8%;
+
+  }
+  .gallery-img{
+    margin:6% 0;
+  }
+
+  .mob-nav{
+    font-size:170%;
+  }
+
+  .footer-titles{
+    font-size:110%
+  }
+
+  .footer-text{
+    font-size:80%;
+  }
+
+  .credits{
+    font-size: 85%;
+  }
+
+}
+
+
+@media only screen and (max-width:459px){
+
+
+  .mob-nav{
+    top:2.8%;
+  }
+
+  .intro-box{
+    transform: translate(-50%,-40%);
+  }
+
+  .intro-box,
+  .contact-box{
+    padding:2%;
+  }
+
+  .navbar-brand{
+    margin-left:1rem;
+  }
+
+  .logo{
+    height:60px;
+  }
+
+  h2::after{
+    width:100px;
+  }
+
+  .footer-titles{
+    font-size:110%
+  }
+
+  .footer-text{
+    font-size:80%;
+  }
+
+  .credits{
+    font-size: 85%;
+  }
+}
+
+
+@media only screen and (max-width:320px){
+  body{
+    font-size:12px;
+  }
+  .logo{
+    height:50px;
+  }
+}
